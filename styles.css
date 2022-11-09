@@ -1,0 +1,45 @@
+* {
+    box-sizing:border-box;   
+}
+body{
+    background: lightgray;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:x-small;
+    margin-block:initial;
+    display:grid;      
+}
+header{
+    background-color: white;
+    padding: 10px;
+}
+h1{
+    margin:0;   
+}
+.post{
+    background-color: white;
+    width: 450px;
+    margin:auto;
+}
+.post img{
+    width: 100%;
+}
+.titulopost h2{
+    display: inline-block;
+    width: 90%;
+    margin:0%;
+    padding: 10px;
+}
+.titulopost span{
+    display: inline-block;
+    width: 10%;
+    color: lightgray;
+    font-weight: bold;  
+}
+.texto{
+    padding: 8px;
+    text-align: justify;
+    
+}
+.maleta{
+    margin-top: 30px;
+}
